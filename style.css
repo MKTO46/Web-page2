@@ -1,0 +1,43 @@
+h1 {
+    color: #ffffff;
+    border: dashed;
+    border-color: #445c65;
+}
+
+/* * {
+    border: solid;
+} */
+
+.header{
+    background-color: #5f9ea0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.footer{
+    display: flex;
+    justify-content: flex-end;
+}
+
+p,h2{
+    text-align: center;
+}
+h2{
+    text-decoration: line-through;
+}
+p{
+   font-size: 25px;
+   font-style: italic;
+   font-weight: bold;
+   font-family:'Courier New', Courier, monospace;
+   text-transform: capitalize;
+}
+body{
+    background-color: #445c65
+}
